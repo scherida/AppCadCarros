@@ -30,7 +30,7 @@ public class DetalhesActivity extends AppCompatActivity {
         tvAno.setText("Ano: "+carro.getAnoFab());
         tvCor.setText("Cor: "+carro.getCor());
         tvMotor.setText("Motor: "+carro.getMotor());
-        tvCombustivel.setText("Motor: "+carro.getMotor());
+        tvCombustivel.setText("Combustível: "+carro.getCombustivel());
         tvValorFipe.setText("Valor FIPE: R$ "+carro.getValorFipe());
     }
 }
