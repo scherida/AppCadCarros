@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DetalhesActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detalhes_do_carro"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#9C27B0" />
+
+    <TextView
+        android:id="@+id/tvMarca"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:paddingTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#070000"
+        android:textSize="24sp"
+        tools:text="Marca" />
+
+    <TextView
+        android:id="@+id/tvModelo"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00060B"
+        android:textSize="24sp"
+        tools:text="Modelo" />
+
+    <TextView
+        android:id="@+id/tvAno"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000407"
+        android:textSize="24sp"
+        tools:text="Ano" />
+
+    <TextView
+        android:id="@+id/tvCor"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#00070C"
+        android:textSize="24sp"
+        tools:text="Cor" />
+
+    <TextView
+        android:id="@+id/tvMotor"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000509"
+        android:textSize="24sp"
+        tools:text="Motor" />
+
+    <TextView
+        android:id="@+id/tvCombustivel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000509"
+        android:textSize="24sp"
+        tools:text="Combustivel" />
+
+    <TextView
+        android:id="@+id/tvValorFipe"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000407"
+        android:textSize="24sp"
+        tools:text="Valor FIPE" />
+
+</LinearLayout>

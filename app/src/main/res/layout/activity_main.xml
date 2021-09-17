@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar_carro"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#673AB7" />
+
+    <EditText
+        android:id="@+id/etMarca"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Marca"
+        android:inputType="textPersonName|textCapSentences"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etModelo"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName|textCapWords"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etAnoFab"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ano Fabricação"
+        android:inputType="number"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etCor"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Cor"
+        android:inputType="textPersonName|textCapWords"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etMotor"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Motor"
+        android:inputType="textPersonName"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etCombustivel"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tipo de Combustivel"
+        android:inputType="textPersonName|textCapWords"
+        android:paddingTop="20dp" />
+
+    <EditText
+        android:id="@+id/etValorFipe"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Valor da FIPE"
+        android:inputType="number"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/bCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="Cadastrar"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/bVerCarro"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:text="Ver carro"
+        android:textSize="24sp"
+        app:rippleColor="#FFFFFF" />
+
+</LinearLayout>

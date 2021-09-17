@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppCadastroCarros</string>
+    <string name="cadastrar_carro">Cadastrar Carro</string>
+    <string name="detalhes_do_carro">Detalhes</string>
+</resources>

@@ -1,0 +1,10 @@
+com/example/appcadastrocarros/DetalhesActivity.java
+ com.example.appcadastrocarros.DetalhesActivity
+com/example/appcadastrocarros/CarroDAO.java
+ com.example.appcadastrocarros.CarroDAO
+com/example/appcadastrocarros/Carro.java
+ com.example.appcadastrocarros.Carro
+com/example/appcadastrocarros/MainActivity.java
+ com.example.appcadastrocarros.MainActivity
+com/example/appcadastrocarros/BuildConfig.java
+ com.example.appcadastrocarros.BuildConfig
